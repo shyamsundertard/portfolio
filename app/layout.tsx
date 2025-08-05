@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./provider";
 import SplashProvider from "@/components/SplashProvider";
+import Analytics from "./analytics";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,6 +33,7 @@ export default function RootLayout({
         />
       </head>
       <body className={inter.className}>
+        <Analytics />
         <SplashProvider>
           <ThemeProvider
             attribute="class"
