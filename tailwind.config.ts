@@ -47,6 +47,29 @@ const config = {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        surface: {
+          DEFAULT: "hsl(var(--surface))",
+          foreground: "hsl(var(--surface-foreground))",
+          secondary: "hsl(var(--surface-secondary))",
+          accent: "hsl(var(--surface-accent))",
+        },
+        nav: {
+          background: "hsl(var(--nav-background))",
+          border: "hsl(var(--nav-border))",
+        },
+        hero: {
+          start: "hsl(var(--hero-background-start))",
+          end: "hsl(var(--hero-background-end))",
+        },
+        orb: {
+          blue: "hsl(var(--orb-blue))",
+          purple: "hsl(var(--orb-purple))",
+        },
+        gradient: {
+          start: "hsl(var(--gradient-start))",
+          mid: "hsl(var(--gradient-mid))",
+          end: "hsl(var(--gradient-end))",
+        },
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",

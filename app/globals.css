@@ -33,6 +33,25 @@
     --ring: 240 10% 3.9%;
 
     --radius: 0.5rem;
+
+    /* Custom portfolio colors for light theme */
+    --surface: 0 0% 98%;
+    --surface-foreground: 240 10% 3.9%;
+    --surface-secondary: 240 4.8% 95.9%;
+    --surface-accent: 240 6% 90%;
+    
+    --nav-background: 0 0% 100% / 0.8;
+    --nav-border: 240 5.9% 90% / 0.5;
+    
+    --hero-background-start: 0 0% 100%;
+    --hero-background-end: 240 4.8% 95.9%;
+    
+    --orb-blue: 210 100% 56% / 0.1;
+    --orb-purple: 280 100% 56% / 0.1;
+    
+    --gradient-start: 0 0% 100%;
+    --gradient-mid: 240 4.8% 95.9%;
+    --gradient-end: 0 0% 100%;
   }
 
   .dark {
@@ -63,6 +82,25 @@
     --border: 240 3.7% 15.9%;
     --input: 240 3.7% 15.9%;
     --ring: 240 4.9% 83.9%;
+
+    /* Custom portfolio colors for dark theme */
+    --surface: 240 10% 3.9%;
+    --surface-foreground: 0 0% 98%;
+    --surface-secondary: 240 3.7% 15.9%;
+    --surface-accent: 240 3.7% 20%;
+    
+    --nav-background: 240 10% 3.9% / 0.8;
+    --nav-border: 240 3.7% 15.9% / 0.5;
+    
+    --hero-background-start: 240 10% 3.9%;
+    --hero-background-end: 240 8% 8%;
+    
+    --orb-blue: 210 100% 56% / 0.2;
+    --orb-purple: 280 100% 56% / 0.2;
+    
+    --gradient-start: 240 10% 3.9%;
+    --gradient-mid: 240 8% 8%;
+    --gradient-end: 240 10% 3.9%;
   }
 }
 
