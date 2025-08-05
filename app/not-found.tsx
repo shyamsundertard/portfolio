@@ -6,6 +6,7 @@ import { useTheme } from 'next-themes';
 import Link from 'next/link';
 import { ArrowLeft, Home } from 'lucide-react';
 import ScrollingGrid from '@/components/ui/ScrollingGrid';
+import Image from 'next/image';
 
 export default function NotFound() {
   const { theme } = useTheme();
@@ -34,7 +35,7 @@ export default function NotFound() {
             className="mb-8"
           >
             <div className="relative w-32 h-32 mx-auto mb-6">
-              <img
+              <Image
                 src={theme === 'dark' ? '/logos/logo_light.png' : '/logos/logo_dark.png'}
                 alt="Logo"
                 className="w-full h-full object-contain drop-shadow-2xl"
