@@ -132,7 +132,7 @@ export const education = [
     id: 3,
     degree: "Matriculation",
     institution: "Adarsh High School, Bikaner",
-    duration: "20219-2020",
+    duration: "2019-2020",
     description: "Completed secondary education with a strong foundation in science and mathematics.",
     percentage: 81.33
   }
