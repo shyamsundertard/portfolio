@@ -63,10 +63,10 @@ export const experience = [
     {
       "id": 1,
       "company": "eWarn System",
-      "position": "IoT Development Intern",
+      "position": "Backend Development Intern",
       "duration": "May 2025 - July 2025",
       "description": "Contributed to a real-time IoT platform by developing both the embedded firmware and the backend services. Responsibilities included programming firmware for ESP32 microcontrollers in C++, integrating a variety of sensors for data acquisition, engineering RESTful APIs in Node.js for data streaming, implementing the MQTT protocol for low-latency hardware-software communication, and designing a scalable PostgreSQL database with Prisma ORM.",
-      "technologies": ["Node.js", "Express", "TypeScript", "PostgreSQL", "Prisma", "MQTT", "Embedded C++", "ESP32", "Sensors (DHT11, MPU6050)"],
+      "technologies": ["Node.js", "Express", "TypeScript", "PostgreSQL", "Prisma", "MQTT", "C++", "ESP32"],
       "achievements": [
         "Developed and deployed robust embedded firmware for a network of IoT sensors, enabling real-time data acquisition and device control.",
         "Engineered a suite of secure and reliable RESTful APIs to manage high-volume, real-time sensor data and control commands from the hardware.",
@@ -173,8 +173,8 @@ export const contactInfo = {
 
 export const personalInfo = {
   name: "Tard, Shyamsunder",
-  title: "Full-Stack Developer",
-  summary: "Passionate full-stack developer building scalable web applications. Specialized in React, Next.js, Node.js, and modern web technologies. Committed to writing clean, maintainable code and delivering exceptional user experiences.",
-  about: "I'm a dedicated full-stack developer who loves turning complex problems into simple, beautiful solutions. When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community.",
-  interests: ["Web Development", "Open Source", "UI/UX Design"]
+  title: "Full-Stack Developer & Embedded Enthusiast",
+  summary: "Passionate full-stack developer building scalable web applications and exploring the intersection of hardware and software. Specialized in React, Next.js, Node.js, and modern web technologies, with hands-on experience in embedded systems. Committed to writing clean, maintainable code and delivering exceptional user experiences.",
+  about: "I'm a dedicated full-stack developer who loves turning complex problems into simple, beautiful solutions. Alongside web development, I enjoy working on projects where hardware meets software—such as IoT platforms and embedded systems—bridging the gap between the digital and physical worlds. When I'm not coding, you can find me exploring new technologies, tinkering with microcontrollers, contributing to open-source projects, or sharing knowledge with the developer community.",
+  interests: ["Web Development", "Embedded Systems", "IoT", "Open Source", "UI/UX Design"]
 };
