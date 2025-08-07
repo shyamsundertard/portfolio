@@ -21,7 +21,7 @@ const AboutPersonalInfo = () => (
           Who I Am
         </CardTitle>
       </CardHeader>
-      <CardContent className="space-y-6 flex-1 flex flex-col justify-between">
+      <CardContent className="space-y-6 flex-1 flex flex-col justify-around">
         <div className="text-center pb-6 border-b border-border">
           <motion.div 
             initial={{ opacity: 0, scale: 0.9 }}
