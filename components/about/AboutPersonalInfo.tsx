@@ -36,7 +36,7 @@ const AboutPersonalInfo = () => (
                   src="/profile-photo.png"
                   alt={`${personalInfo.name} - Professional Photo`}
                   fill
-                  className="object-cover object-top hover:scale-105 transition-transform duration-300"
+                  className="object-cover object-top scale-110 hover:scale-105 transition-transform duration-300"
                   priority
                   onError={(e) => {
                     console.error('Profile image failed to load:', e);
