@@ -97,18 +97,36 @@ export const experience = [
 ];
 
 export const freelanceProjects = [
-  // {
-  //   id: 1,
-  //   client: "Client Name",
-  //   projectName: "Project Name",
-  //   duration: "Duration",
-  //   description: "Project description",
-  //   technologies: ["Tech1", "Tech2"],
-  //   achievements: ["Achievement 1", "Achievement 2"],
-  //   projectType: "Project Type",
-  //   link: "https://project-link.com",
-  //   linkType: "live" // or "documentation"
-  // }
+  {
+    id: 1,
+    client: "Rajwadi Roots",
+    projectName: "E-Commerce Website",
+    duration: "Nov 2025",
+    description: "Built a modern static e-commerce site with Clothing and Jewellery sections, featuring optimized UI components and SEO-friendly pages.",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "AWS"],
+    achievements: [
+      "Implemented reusable UI components for fast development and maintainability",
+      "Developing a scalable backend on AWS for secure product management and media delivery"
+    ],
+    projectType: "Freelance – E-Commerce",
+    link: "https://www.rajwadiroots.com/",
+    linkType: "live"
+  },
+  {
+    id: 2,
+    client: "जन शिक्षण संस्थान, बीकानेर",
+    projectName: "NGO Website",
+    duration: "Dec 2025",
+    description: "Developed a fully responsive NGO website showcasing organization details, objectives, and beneficiary groups with multilingual Hindi content support.",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
+    achievements: [
+      "Implemented reusable components and a modern design system for fast load times",
+      "Structured content for clarity, accessibility, and future scalability"
+    ],
+    projectType: "Freelance – NGO Website",
+    link: "https://jss-bkn.vercel.app/",
+    linkType: "live"
+  }
 ];
 
 export const education = [
